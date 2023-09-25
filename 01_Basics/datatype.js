@@ -19,6 +19,21 @@ Undefined => No value assigned that indicate.
 Symbol => Unique
 */
 
-console.log(typeof 15);
-console.log(typeof null);  //Return Object
-console.log(typeof undefined);
+// console.log(typeof 15);
+// console.log(typeof null);  //Return Object
+// console.log(typeof undefined);
+
+
+
+/**********************Summary********************* */
+
+// Primitive
+// 7 types :- String, number, boolean, null, undefined, symbol, bigint
+
+// const id = Symbol('133')
+// const anotherID = Symbol('133')
+
+// console.log((id == anotherID)); //False, Though same value you pass in Symbol but they are treat as Different.
+
+// Reference type (Non premetive)
+//Array,Objects,Function
