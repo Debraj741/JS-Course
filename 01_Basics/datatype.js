@@ -20,4 +20,5 @@ Symbol => Unique
 */
 
 console.log(typeof 15);
-
+console.log(typeof null);  //Return Object
+console.log(typeof undefined);
