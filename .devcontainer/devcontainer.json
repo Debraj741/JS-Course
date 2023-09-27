@@ -8,7 +8,13 @@
 		"vscode": {
 			"extensions": [
 				"formulahendry.code-runner"
-			]
+				
+			],
+			"features": {
+				"code-runner.runInTerminal": true,
+				"code-runner.saveAllFilesBeforeRun": true,
+				"editor.mouseWheelZoom": true
+			}
 		}
 	}
 
